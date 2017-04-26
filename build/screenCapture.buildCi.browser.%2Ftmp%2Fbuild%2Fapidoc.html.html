@@ -54,12 +54,39 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.isomorphic-fetch">module isomorphic-fetch</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.isomorphic-fetch.isomorphic-fetch">
+            function <span class="apidocSignatureSpan"></span>isomorphic-fetch
+            <span class="apidocSignatureSpan">(url, options)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.isomorphic-fetch" id="apidoc.module.isomorphic-fetch">module isomorphic-fetch</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.isomorphic-fetch.isomorphic-fetch" id="apidoc.element.isomorphic-fetch.isomorphic-fetch">
+        function <span class="apidocSignatureSpan"></span>isomorphic-fetch
+        <span class="apidocSignatureSpan">(url, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isomorphic-fetch = function (url, options) {
+	if (/^\/\//.test(url)) {
+		url = 'https:' + url;
+	}
+	return realFetch.call(this, url, options);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
