@@ -1,9 +1,14 @@
-# api documentation for  [isomorphic-fetch (v2.2.1)](https://github.com/matthew-andrews/isomorphic-fetch/issues)  [![npm package](https://img.shields.io/npm/v/npmdoc-isomorphic-fetch.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-isomorphic-fetch) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-isomorphic-fetch.svg)](https://travis-ci.org/npmdoc/node-npmdoc-isomorphic-fetch)
+# npmdoc-isomorphic-fetch
+
+#### basic api documentation for  [isomorphic-fetch (v2.2.1)](https://github.com/matthew-andrews/isomorphic-fetch/issues)  [![npm package](https://img.shields.io/npm/v/npmdoc-isomorphic-fetch.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-isomorphic-fetch) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-isomorphic-fetch.svg)](https://travis-ci.org/npmdoc/node-npmdoc-isomorphic-fetch)
+
 #### Isomorphic WHATWG Fetch API, for Node & Browserify
 
-[![NPM](https://nodei.co/npm/isomorphic-fetch.png?downloads=true)](https://www.npmjs.com/package/isomorphic-fetch)
+[![NPM](https://nodei.co/npm/isomorphic-fetch.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/isomorphic-fetch)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-isomorphic-fetch/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-isomorphic-fetch%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-isomorphic-fetch/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-isomorphic-fetch/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-isomorphic-fetch/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-isomorphic-fetch/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-isomorphic-fetch/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-isomorphic-fetch/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Matt Andrews",
-        "email": "matt@mattandre.ws"
+        "name": "Matt Andrews"
     },
     "browser": "fetch-npm-browserify.js",
     "bugs": {
@@ -49,17 +53,14 @@
     "main": "fetch-npm-node.js",
     "maintainers": [
         {
-            "name": "financial-times",
-            "email": "strategic.products@ft.com"
+            "name": "financial-times"
         },
         {
-            "name": "mattandrews",
-            "email": "matt@mattandre.ws"
+            "name": "mattandrews"
         }
     ],
     "name": "isomorphic-fetch",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/matthew-andrews/isomorphic-fetch.git"
@@ -68,19 +69,10 @@
         "files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
         "test": "jshint 'npm run -s files' && lintspaces -i js-comments -e .editorconfig 'npm run -s files' && mocha"
     },
-    "version": "2.2.1"
+    "version": "2.2.1",
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module isomorphic-fetch](#apidoc.module.isomorphic-fetch)
-
-
-
-# <a name="apidoc.module.isomorphic-fetch"></a>[module isomorphic-fetch](#apidoc.module.isomorphic-fetch)
 
 
 
